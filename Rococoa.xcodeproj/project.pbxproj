@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844749CF18CFD0B80078E1BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844749CD18CFD0B80078E1BE /* InfoPlist.strings */; };
+		844749DE18CFD0B90078E1BE /* Rococoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844749C118CFD0B80078E1BE /* Rococoa.framework */; };
+		844749F018CFD1E10078E1BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844749C718CFD0B80078E1BE /* Foundation.framework */; };
+		844749F118CFD1E50078E1BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844749C818CFD0B80078E1BE /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844749DC18CFD0B90078E1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844749B818CFD0B80078E1BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844749C018CFD0B80078E1BE;
+			remoteInfo = Rococoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844749C118CFD0B80078E1BE /* Rococoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rococoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844749C718CFD0B80078E1BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		844749C818CFD0B80078E1BE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		844749C918CFD0B80078E1BE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		844749CC18CFD0B80078E1BE /* Rococoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rococoa-Info.plist"; sourceTree = "<group>"; };
+		844749CE18CFD0B80078E1BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		844749D018CFD0B80078E1BE /* Rococoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rococoa-Prefix.pch"; sourceTree = "<group>"; };
+		844749D118CFD0B80078E1BE /* Rococoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rococoa.h; sourceTree = "<group>"; };
+		844749D818CFD0B80078E1BE /* RococoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RococoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844749BD18CFD0B80078E1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844749F118CFD1E50078E1BE /* CoreData.framework in Frameworks */,
+				844749F018CFD1E10078E1BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844749D518CFD0B80078E1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844749DE18CFD0B90078E1BE /* Rococoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844749B718CFD0B80078E1BE = {
+			isa = PBXGroup;
+			children = (
+				844749CA18CFD0B80078E1BE /* Rococoa */,
+				844749C318CFD0B80078E1BE /* Frameworks */,
+				844749C218CFD0B80078E1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844749C218CFD0B80078E1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844749C118CFD0B80078E1BE /* Rococoa.framework */,
+				844749D818CFD0B80078E1BE /* RococoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844749C318CFD0B80078E1BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844749C618CFD0B80078E1BE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844749C618CFD0B80078E1BE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844749C718CFD0B80078E1BE /* Foundation.framework */,
+				844749C818CFD0B80078E1BE /* CoreData.framework */,
+				844749C918CFD0B80078E1BE /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		844749CA18CFD0B80078E1BE /* Rococoa */ = {
+			isa = PBXGroup;
+			children = (
+				844749D118CFD0B80078E1BE /* Rococoa.h */,
+				844749CB18CFD0B80078E1BE /* Supporting Files */,
+			);
+			path = Rococoa;
+			sourceTree = "<group>";
+		};
+		844749CB18CFD0B80078E1BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844749CC18CFD0B80078E1BE /* Rococoa-Info.plist */,
+				844749CD18CFD0B80078E1BE /* InfoPlist.strings */,
+				844749D018CFD0B80078E1BE /* Rococoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		844749BE18CFD0B80078E1BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		844749C018CFD0B80078E1BE /* Rococoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844749E918CFD0B90078E1BE /* Build configuration list for PBXNativeTarget "Rococoa" */;
+			buildPhases = (
+				844749BC18CFD0B80078E1BE /* Sources */,
+				844749BD18CFD0B80078E1BE /* Frameworks */,
+				844749BE18CFD0B80078E1BE /* Headers */,
+				844749BF18CFD0B80078E1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rococoa;
+			productName = Rococoa;
+			productReference = 844749C118CFD0B80078E1BE /* Rococoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		844749D718CFD0B80078E1BE /* RococoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844749EC18CFD0B90078E1BE /* Build configuration list for PBXNativeTarget "RococoaTests" */;
+			buildPhases = (
+				844749D418CFD0B80078E1BE /* Sources */,
+				844749D518CFD0B80078E1BE /* Frameworks */,
+				844749D618CFD0B80078E1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844749DD18CFD0B90078E1BE /* PBXTargetDependency */,
+			);
+			name = RococoaTests;
+			productName = RococoaTests;
+			productReference = 844749D818CFD0B80078E1BE /* RococoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844749B818CFD0B80078E1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Robert Widmann";
+				TargetAttributes = {
+					844749D718CFD0B80078E1BE = {
+						TestTargetID = 844749C018CFD0B80078E1BE;
+					};
+				};
+			};
+			buildConfigurationList = 844749BB18CFD0B80078E1BE /* Build configuration list for PBXProject "Rococoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 844749B718CFD0B80078E1BE;
+			productRefGroup = 844749C218CFD0B80078E1BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844749C018CFD0B80078E1BE /* Rococoa */,
+				844749D718CFD0B80078E1BE /* RococoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844749BF18CFD0B80078E1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844749CF18CFD0B80078E1BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844749D618CFD0B80078E1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844749BC18CFD0B80078E1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844749D418CFD0B80078E1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844749DD18CFD0B90078E1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844749C018CFD0B80078E1BE /* Rococoa */;
+			targetProxy = 844749DC18CFD0B90078E1BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844749CD18CFD0B80078E1BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844749CE18CFD0B80078E1BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844749E718CFD0B90078E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		844749E818CFD0B90078E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		844749EA18CFD0B90078E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rococoa/Rococoa-Prefix.pch";
+				INFOPLIST_FILE = "Rococoa/Rococoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		844749EB18CFD0B90078E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rococoa/Rococoa-Prefix.pch";
+				INFOPLIST_FILE = "Rococoa/Rococoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		844749ED18CFD0B90078E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rococoa.framework/Versions/A/Rococoa";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rococoa/Rococoa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RococoaTests/RococoaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		844749EE18CFD0B90078E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rococoa.framework/Versions/A/Rococoa";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rococoa/Rococoa-Prefix.pch";
+				INFOPLIST_FILE = "RococoaTests/RococoaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844749BB18CFD0B80078E1BE /* Build configuration list for PBXProject "Rococoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844749E718CFD0B90078E1BE /* Debug */,
+				844749E818CFD0B90078E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844749E918CFD0B90078E1BE /* Build configuration list for PBXNativeTarget "Rococoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844749EA18CFD0B90078E1BE /* Debug */,
+				844749EB18CFD0B90078E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844749EC18CFD0B90078E1BE /* Build configuration list for PBXNativeTarget "RococoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844749ED18CFD0B90078E1BE /* Debug */,
+				844749EE18CFD0B90078E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844749B818CFD0B80078E1BE /* Project object */;
+}
